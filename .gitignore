@@ -38,4 +38,4 @@ venv.bak/
 
 .venv
 /poetry.toml
-.lock
+poetry.lock
