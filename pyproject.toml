@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "imagerec-app"
+version = "0.1.0"
+description = ""
+authors = ""
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tqdm = "^4.66.2"
+tensorflow-io-gcs-filesystem = {version = "^0.31.0", python = ">=3.9,<3.12"}
+tensorflow = "^2.16.1"
+keras = "^3.2.1"
+flickrapi = "^2.4.0"
+pillow = "^10.3.0"
+scikit-learn = "^1.4.2"
+tensorflow-intel = "^2.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
